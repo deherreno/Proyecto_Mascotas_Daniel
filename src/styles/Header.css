@@ -1,0 +1,39 @@
+.header {
+    background: #151414;
+    padding: 10px 0;
+    color: #fff;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo a {
+    color: #ff5e14;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  .header .nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .header .nav ul li {
+    margin-left: 20px;
+  }
+  .header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .header .nav ul li a:hover {
+    color: #ff5e14;
+  }
+
+.logo-image {
+    width: 200px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
+  
+  
