@@ -1,0 +1,25 @@
+.inicio-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .inicio-container h1 {
+    font-size: 2.5em;
+    color: #ff5e14;
+  }
+  
+  .inicio-container p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .destacados {
+    margin-top: 50px;
+  }
+  
+  .destacados h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+  }

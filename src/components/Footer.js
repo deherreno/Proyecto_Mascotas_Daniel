@@ -48,9 +48,9 @@ function Footer() {
                 </div>
                 <div className="footer-social-icon">
                   <span>Siguenos</span>
-                  <a href="facebook.com"><i className="fab fa-facebook-f facebook-bg"></i></a>
-                  <a href="twitter.com"><i className="fab fa-twitter twitter-bg"></i></a>
-                  <a href="instagram.com"><i className="fab fa-instagram instagram-bg"></i></a>
+                  <a href="https://www.facebook.com"><i className="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="https://x.com/?lang=es.com"><i className="fab fa-twitter twitter-bg"></i></a>
+                  <a href="https://www.instagram.com"><i className="fab fa-instagram instagram-bg"></i></a>
                 </div>
               </div>
             </div>

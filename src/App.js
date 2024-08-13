@@ -1,21 +1,26 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import ProductList from './components/ProductList';
 import Footer from './components/Footer';
+import ProductList from './components/ProductList';
 import Login from './components/Login';
 import Register from './components/Register';
-// Importa otros componentes necesarios
+import AboutUs from './components/Aboutus';
+import Contact from './components/Contact'; 
+import Inicio from './components/Inicio'; 
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/Inicio" element={<ProductList />} />
+        <Route path="/Inicio" element={<Inicio />} />
+        <Route path="/Productos" element={<ProductList />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        {/* Agrega otras rutas aquí */}
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />   
+      
       </Routes>
       <Footer />
     </Router>

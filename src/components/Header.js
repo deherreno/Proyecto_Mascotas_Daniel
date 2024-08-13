@@ -19,8 +19,8 @@ function Header() {
           <ul>
             <li><Link to="/Inicio">Inicio</Link></li> 
             <li><Link to="/productos">Productos</Link></li>
-            <li><Link to="/acerca-de-nosotros">Acerca de nosotros</Link></li>
-            <li><Link to="/contacto">Contacto</Link></li>
+            <li><Link to="/aboutus">Acerca de nosotros</Link></li>
+            <li><Link to="/contact">Contacto</Link></li>
             <li><Link to="/login">Login</Link></li>
             <li><Link to="/register">Registro</Link></li>
           </ul>
