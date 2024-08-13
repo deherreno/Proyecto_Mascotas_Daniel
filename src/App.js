@@ -1,18 +1,25 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import ProductList from './components/ProductList';
-import './styles/App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import Home from './Home';
+import Login from './Login';
+import Register from './Register';
+// Importa otros componentes necesarios
 
 function App() {
   return (
-    <div className="app">
+    <Router>
       <Header />
-      <ProductList />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        {/* Agrega otras rutas aquí */}
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
 export default App;
-    
