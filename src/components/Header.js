@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <div className="container">
         <div className="logo">
-          <Link to="/">
+          <Link to="/Inicio">
             <img 
               src="https://omegapet.es/wp-content/uploads/2021/01/OMEGAPET_LOGO_RGB.png" 
               alt="Omega Petshop" 
@@ -17,7 +17,7 @@ function Header() {
         </div>
         <nav className="nav">
           <ul>
-            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/Inicio">Inicio</Link></li> 
             <li><Link to="/productos">Productos</Link></li>
             <li><Link to="/acerca-de-nosotros">Acerca de nosotros</Link></li>
             <li><Link to="/contacto">Contacto</Link></li>
