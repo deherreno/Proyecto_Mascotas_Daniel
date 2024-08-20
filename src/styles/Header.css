@@ -32,8 +32,34 @@
   }
 
 .logo-image {
-    width: 200px; /* Ajusta el ancho de la imagen */
-    height: auto; /* Mantiene la proporción original de la imagen */
+    width: 200px; 
+    height: auto; 
   }
   
+
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .search-form button {
+    padding: 5px 10px;
+    background-color: #151414;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-form button img {
+    width: 20px;
+    height: 20px;
+  }
   

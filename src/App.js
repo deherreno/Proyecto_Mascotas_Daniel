@@ -7,20 +7,21 @@ import Login from './components/Login';
 import Register from './components/Register';
 import AboutUs from './components/Aboutus';
 import Contact from './components/Contact'; 
-import Inicio from './components/Inicio'; 
+import HomePage from './components/HomePage';
+import SearchResults from './components/SearchResults';
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/Inicio" element={<Inicio />} />
+        <Route path="/Inicio" element={<HomePage />} />
         <Route path="/Productos" element={<ProductList />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />   
-      
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/search" element={<SearchResults />} />
       </Routes>
       <Footer />
     </Router>
@@ -28,3 +29,4 @@ function App() {
 }
 
 export default App;
+

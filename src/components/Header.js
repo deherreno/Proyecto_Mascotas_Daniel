@@ -1,8 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import '../styles/Header.css';
 
 function Header() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const navigate = useNavigate();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    // Redirige a la página de resultados de búsqueda
+    if (searchTerm.trim()) {
+      navigate(`/search?query=${searchTerm}`);
+    }
+  };
+
   return (
     <header className="header">
       <div className="container">
@@ -25,6 +36,17 @@ function Header() {
             <li><Link to="/register">Registro</Link></li>
           </ul>
         </nav>
+        <form className="search-form" onSubmit={handleSearch}>
+          <input
+            type="text"
+            placeholder="Buscar productos..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <button type="submit">
+            <img src="https://png.pngtree.com/png-clipart/20230805/original/pngtree-search-flat-orange-color-icon-pictogram-magnify-glass-vector-picture-image_9756745.png" alt="Buscar" />
+          </button>
+        </form>
       </div>
     </header>
   );

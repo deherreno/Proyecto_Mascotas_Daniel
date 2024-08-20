@@ -41,7 +41,7 @@ function Footer() {
             <div className="col-xl-4 col-lg-4 mb-50">
               <div className="footer-widget">
                 <div className="footer-logo">
-                  <a href="index.html"><img src="https://omegapet.es/wp-content/uploads/2021/01/OMEGAPET_LOGO_RGB.png" className="img-fluid" alt="logo" /></a>
+                  <a href="/Inicio"><img src="https://omegapet.es/wp-content/uploads/2021/01/OMEGAPET_LOGO_RGB.png" className="img-fluid" alt="logo" /></a>
                 </div>
                 <div className="footer-text">
                   <p>En OmegaPetShop, cuidamos de tus mascotas con productos de calidad. ¡Confía en nosotros!</p>

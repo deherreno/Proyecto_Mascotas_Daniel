@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Inicio.css'; // Si necesitas estilos personalizados
+import '../styles/HomePage.css';
 import ProductList from './ProductList';
 
 function Inicio() {
